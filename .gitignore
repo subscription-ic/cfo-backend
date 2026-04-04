@@ -1,0 +1,64 @@
+# ── Environment ───────────────────────────────────────────────
+.env
+.env.local
+.env.*.local
+
+# ── Python ────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+wheels/
+*.whl
+.eggs/
+
+# ── Virtual environments ───────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+.virtualenv/
+
+# ── Testing & coverage ────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+*.coveragerc
+
+# ── Type checkers & linters ───────────────────────────────────
+.mypy_cache/
+.ruff_cache/
+.pytype/
+
+# ── IDEs & editors ────────────────────────────────────────────
+.vscode/
+.idea/
+*.suo
+*.user
+*.swp
+*.swo
+*~
+
+# ── OS artefacts ──────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Logs ──────────────────────────────────────────────────────
+app/logs/
+*.log
+
+# ── Data / uploads (never commit raw PDFs or output data) ─────
+app/input/files/
+app/processing/temp/
+app/processing/extracted/
+app/processing/embeddings/
+app/output/
+
+# ── Jupyter ───────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
